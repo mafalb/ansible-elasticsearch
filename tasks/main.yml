@@ -26,3 +26,4 @@
   service:
     name: elasticsearch
     state: started
+    enabled: true
