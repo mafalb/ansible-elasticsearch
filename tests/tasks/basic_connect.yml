@@ -1,0 +1,9 @@
+# vim: set ft=yaml ts=2:
+---
+
+- name: do a api request
+  check_mode: false
+  uri:
+    url: http://127.0.0.1:9200/
+    return_content: yes
+    status_code: 200
